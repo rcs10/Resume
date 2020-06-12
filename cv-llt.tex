@@ -1,0 +1,64 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+
+\usepackage{settings}
+
+
+\ifxetexorluatex 
+  \usepackage{fontspec} 
+
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
+\addbibresource{own-bib.bib}
+
+
+\myname{Dhanuesh}{R\bibnamedelima C}
+\includecomment{fullonly}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Dhanuesh R C}
+  
+  \makefield{\faCalendar}{19th September 1999}
+  
+  \makefield{\faEnvelope[regular]}{\texttt{dhanueshrc28@gmail.com}}
+  \makefield{\faMobile}{\texttt{9900920302}}
+
+ \makefield{\faGithub}
+  {\url{github.com/rcs10}}
+  
+  \makefield{\faLinkedin}
+  {\url{linkedin.com/in/dhanuesh-r-c-167478172}}
+ 
+
+}
+
+\rightheader{~}
+% \begin{fullonly}
+% \photo[r]{photo}
+% \photoscale{0.2}
+% \end{fullonly}
+
+
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{employment}
+\makerubric{education}
+
+\makerubric{skills}
+
+\makerubric{projects}
+
+
+\end{document}
