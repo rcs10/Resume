@@ -2,6 +2,14 @@
 
 \usepackage{settings}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+
+}
+
+\definecolor{orange}{HTML}{FDA333}
+\definecolor{materialorange}{HTML}{FF5722}
 
 \ifxetexorluatex 
   \usepackage{fontspec} 
@@ -34,18 +42,20 @@
   \makefield{\faMobile}{\texttt{9900920302}}
 
  \makefield{\faGithub}
-  {\url{github.com/rcs10}}
+  {\href{https://github.com/rcs10}{Github Profile}}
   
   \makefield{\faLinkedin}
-  {\url{linkedin.com/in/dhanuesh-r-c-167478172}}
- 
+  {\href{https://linkedin.com/in/dhanuesh-r-c-167478172}{LinkedIn Profile}}
+  
+ \makefield{\faStackOverflow}
+  {\href{https://stackoverflow.com/users/11034109/rcs?tab=profile}{Stackoverflow Profile}}
 
 }
 
-\rightheader{~}
+% \rightheader{~}
 % \begin{fullonly}
 % \photo[r]{photo}
-% \photoscale{0.2}
+% \photoscale{0.18}
 % \end{fullonly}
 
 
